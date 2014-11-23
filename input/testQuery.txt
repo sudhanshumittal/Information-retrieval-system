@@ -1,0 +1,4 @@
+Any information on packet radio networks.  Of particular interest are
+algorithms for packet routing, and for dealing with changes in
+network topography.  I am not interested in the hardware used in the
+network.

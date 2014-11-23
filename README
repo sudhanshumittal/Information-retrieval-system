@@ -1,0 +1,22 @@
+roll no 10010166 10010164 10010173 100101
+
+usage 
+	goto src directory 
+	run python main.py [-c]
+	-c controls index rebuilding ( which are otherwise stored )
+
+
+
+stopwords
+	using the list of stop words provided for the corpus
+stemming 
+	using porter stemming implememted in python
+indexing 
+	trie using bio library in python
+ranking 
+	tfidf
+	tf => augumented 
+precision
+	mean average precision ~ 1.4
+	
+	index size = 1.4 MB
