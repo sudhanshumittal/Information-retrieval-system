@@ -4,7 +4,6 @@ Associate Professor, Indian Institute of technology, Guwahati
 
 <h3>What is an Information Retrieval System?</h3>
 Simply put, an IR system allows it users to efficiently search documents and retrieve meaningful information based on a search text/query. <br><br>
-<alight=center>
 ![alt tag](https://raw.github.com/sudhanshumittal/Information-retrieval-system/master/images/img.gif)
 <br>
 A good IR system should -<br>
