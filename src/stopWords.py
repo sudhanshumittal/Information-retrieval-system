@@ -9,12 +9,12 @@ def create_stopword_list(stopword_file):
 		pickle.dump(stopwords, f, -1)
 	"""
 	return stopwords	
-def remove_stopwords(data, stopwords):
+def remove_stopwords(wordList, stopwords):
 
-    assert isinstance(data, list)
+    assert isinstance(wordList, list)
     assert isinstance(stopwords, list)
 
-    return [x for x in data if x not in stopwords]
+    return [x for x in wordList if x not in stopwords]
 
 def tokenize(data):
 

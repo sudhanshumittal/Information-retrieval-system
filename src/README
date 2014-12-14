@@ -1,0 +1,19 @@
+dependencies:
+	bs4 beautiful soup -  http://www.crummy.com/software/BeautifulSoup/bs4/doc/
+	html2Text http://www.aaronsw.com/2002/html2text/
+	patricia trie https://pypi.python.org/pypi/patricia-trie/
+	
+BM25 http://en.wikipedia.org/wiki/Okapi_BM25
+Assumption 
+	the file name is a unique id for the html doc
+_________________________
+THE INDEX
+_________________________
+
+There is one secodary index,( a hash map) over several primary indices ( default 9 in number )
+Eeach priimary index consists of words starting with a limited set of characters.
+for eg: every word starting with letter 'a' will be in the same primary index.
+
+PRIMARY INDEX
+Every word has document freq. and a postings list consisting of documentId and term freq. pair. 
+
